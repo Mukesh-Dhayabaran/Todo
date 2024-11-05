@@ -1,0 +1,83 @@
+#overlay{
+    
+    background-color: black;
+    opacity: 0.8;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0px;
+    left: 0px;
+}
+
+#popup{
+    
+    background-color: black;
+    width: 40%;
+    padding: 30px;
+    border-radius: 10px;
+    border : 2px solid pink;
+    position: absolute;
+    top: 20%;
+    left: 28%;
+}
+
+#popup h2{
+    
+    color: pink;
+    font-size: 40px;
+    margin-bottom: 30px;
+}
+
+.in{
+    background-color: black;
+    color: white;
+    border: none;
+    width: 90%;
+    margin: 10px;
+    margin-bottom: 30px;
+    padding: 5px;
+    font-size: 20px;
+    border-bottom: solid pink 2px;
+    outline: none;
+}
+
+.in::placeholder{
+    
+    color: pink;
+}
+
+.pop1{
+    
+    color:pink;
+    background-color: black;
+    border:none;
+    font-size: 20px;
+    padding: 5px;
+    border-radius: 10px;
+    margin-top: 25px;
+}
+
+#add-new
+{
+
+    width: 10%;
+    text-align: center;
+
+}
+
+.pop1:hover{
+    
+    cursor: pointer;
+    color: black;
+    background-color: white;
+    transform: scale(1.13);
+    /*box-shadow: 0 0 20px rgba(238, 139, 238, 0.8), 0 0 30px rgba(234, 137, 234, 0.8);*/
+    
+}
+
+
+#cancel{
+
+    margin-left: 25px;
+
+}
